@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.flag-container,
+.flag-drop-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  border: 2px solid black;
+}
+
+.flag-part {
+  width: 300px;
+  height: 60px;
+}
+
+.orange {
+  background-color: #ff9933;
+}
+
+.white {
+  background-color: white;
+  position: relative;
+}
+
+.green {
+  background-color: #138808;
+}
+
+.ashoka-wheel {
+  width: 40px;
+  height: 40px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 10px; /* Centered in the white bar */
+  left: 0;
+  right: 0;
+}
+
+.flag-parts-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flag-part.orange {
+  background-color: #ff9933;
+}
+
+.flag-part.white {
+  background-color: white;
+  position: relative;
+}
+
+.flag-part.green {
+  background-color: #138808;
+}
+
+.flag-drop-area {
+  width: 300px;
+  height: 60px;
+  border: 2px dashed black;
+  margin: 10px 0;
+}
+
+.flag-drop-area.orange {
+  background-color: #ffe0b2;
+}
+
+.flag-drop-area.white {
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.flag-drop-area.green {
+  background-color: #e0f2f1;
+}
+
+.flag-drop-area.wheel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.canvas {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.flag-parts {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
